@@ -9,5 +9,28 @@
 }
 
 h1 {
-	font-family: 'Yellowtail';
+	font-family: 'Roboto';
+}
+
+.happy {
+    display: block;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    width: 125px;
+    height: 125px;
+    border: 2px solid #000;
+    border-radius: 125px;
+}
+
+blockquote {
+    position: relative;
+    font-family: "Roboto";
+    margin: 0;
+    padding: 15px;
+    position: relative;
+    font-style: italic;
+    color: #222222;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
 }
