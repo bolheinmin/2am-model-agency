@@ -7,7 +7,28 @@
 	font-family: 'Yellowtail';
 	src:url('../fonts/Yellowtail-Regular.ttf');
 }
+*
+{
+	font-family: 'Roboto',sans-serif;;
+}
+.nav-item
+{
+	margin-right: 50px;
+}
+.logo
+{
+	font-family: 'Yellowtail',cursive;
+	font-weight: normal;
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+.logo span {
+	font-family: 'Yellowtail',cursive;
+	font-size: 50px;
+}
+.language {
+	cursor: pointer;
+}
+.infoBox {
 
-h1 {
-	font-family: 'Yellowtail';
 }
