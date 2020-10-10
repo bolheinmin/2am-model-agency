@@ -22,6 +22,9 @@
 	font-size: 30px;
 	letter-spacing: 10px;
 }
+.navbar-toggler {
+    outline: none!important;
+}
 .logo span {
 	font-family: 'Yellowtail',cursive;
 	font-size: 50px;
@@ -29,34 +32,126 @@
 .language {
 	cursor: pointer;
 }
-.infoBox {
-
-<<<<<<< HEAD
-=======
 h1 {
 	font-family: 'Roboto';
 }
-
+.infoBox div{
+    float: right;
+}
 .happy {
+    cursor: pointer;
+    transition: box-shadow .3s;
     display: block;
     text-align: center;
     margin: 0 auto 20px auto;
     width: 125px;
     height: 125px;
-    border: 2px solid #000;
-    border-radius: 125px;
+    border: 2px solid rgba(23, 32, 42,.7);
+    border-radius: 50%;
 }
-
+.happy:hover {
+    box-shadow: 2px 3px 5px rgba(23, 32, 42 ,.7);
+}
 blockquote {
     position: relative;
-    font-family: "Roboto";
     margin: 0;
     padding: 15px;
-    position: relative;
     font-style: italic;
     color: #222222;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 24px;
     text-align: center;
->>>>>>> fbdded2fb5c0659c28e60237e758969250de1332
+}
+blockquote i {
+    color: #1d2124;
+    font-size: 14px;
+}
+/*Image Transition Style Start*/
+.topModelBox {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: all .5s;
+}
+.topModelBox:hover {
+    transform: scale(1.1);
+    box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+.topModelBox:hover .overlayLeft {
+    width: 100%;
+
+}
+.overlay {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: #1b1e21;
+}
+.topModelBox:hover .overlay {
+   opacity: .5;
+
+}
+.overlay .text {
+    color: white;
+    margin-top: 70%;
+    /*position: absolute;*/
+    /*transform: translate(-50%,-50%);*/
+}
+.overlayLeft
+{
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+
+.topModelImg {
+    cursor: pointer;
+}
+/*Image Transition Style End*/
+.icons i{
+   margin-right: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.icons i:hover {
+    opacity: 0.8;
+}
+.fa-facebook-square {
+    color:#1873eb;
+}
+.fa-twitter-square {
+    color:#00a6eb;
+}
+.fa-instagram {
+    color:#b82e77;
+}
+.fa-youtube {
+    color:#cf2323;
+}
+.fa-pinterest {
+    color:#b7081b;
+}
+.social h3 ,.social span {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.social h3:hover , .social span:hover {
+    opacity: 1;
+}
+.social span {
+    font-size: 16px;
+}
+.socialInfo .title {
+    font-size: 20px;
+    opacity: 0.9;
+}
+.stylishHeader {
+    letter-spacing: 3px;
+}
+.socialInfo .description {
+    opacity: 0.7;
+    word-spacing: 3px;
+    text-indent: 6rem;
 }
