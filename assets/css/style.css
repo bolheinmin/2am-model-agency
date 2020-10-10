@@ -1,11 +1,11 @@
-@font-face{
-	font-family: 'Roboto';
-	src:url('../fonts/Roboto-Regular.ttf');
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
 }
 
-@font-face{
-	font-family: 'Yellowtail';
-	src:url('../fonts/Yellowtail-Regular.ttf');
+@font-face {
+    font-family: 'Yellowtail';
+    src: url('../fonts/Yellowtail-Regular.ttf');
 }
 *
 {
@@ -33,6 +33,93 @@
 	cursor: pointer;
 }
 h1 {
+    font-family: 'Roboto';
+}
+.hovereffect {
+  width: 350px;
+  height: 200px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 350px;
+  height: 200px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: -5%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hovereffect:hover .overlay {
+  background-color: rgba(170,170,170,0.4);
+}
+
+.hovereffect h2, .hovereffect img {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect img {
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.hovereffect:hover img {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 15px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.hovereffect p.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-weight: normal;
+  height: 85%;
+  width: 90%;
+  position: absolute;
+  top: -20%;
+  left: 8%;
+  padding: 70px;
+}
+
+.hovereffect:hover p.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  background-color: rgba(0,0,0,0.4);
 	font-family: 'Roboto';
 }
 .infoBox div{
@@ -62,6 +149,7 @@ blockquote {
     line-height: 24px;
     text-align: center;
 }
+<<<<<<< HEAD
 blockquote i {
     color: #1d2124;
     font-size: 14px;
@@ -155,3 +243,54 @@ blockquote i {
     word-spacing: 3px;
     text-indent: 6rem;
 }
+=======
+
+/*css for form design*/
+input[type="radio"] {
+    display: none
+}
+
+input[type="radio"]+label:before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 6px;
+    margin-right: 3px;
+    background-clip: content-box;
+    border: 2px solid #bbb;
+    background-color: #e7e6e7;
+    border-radius: 50%
+}
+
+input[type="radio"]:checked+label:before {
+    background-color: #93e026
+}
+
+label {
+    display: flex;
+    align-items: center
+}
+
+.form_label {
+    position: relative;
+    font-weight: 500;
+    margin-bottom: 3px;
+    font-size: 16px;
+    text-align: left;
+    display: block;
+    padding-left: 13px;
+    color: #000;
+}
+
+.require {
+    width: 4px;
+    height: 4px;
+    background: #c83e74;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 2px;
+}
+
+/*end form design*/
+>>>>>>> 547a9d9572fb6dac5ec03ee932445df5045e7fc0
