@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>2AM Model Agency</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,97 +17,195 @@
     <meta name="language" content="EN">
 </head>
 <body>
-    <h1 class="text-center mt-5">YOU'RE IN THE RIGHT PLACE!</h1>
-    <div class="container">
+    <!-- nav-bar-start (inner Pages )-->
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <h3 class="logo text-sm-center text-md-right text-dark">2am <span>M</span>odel <span>A</span>gency</h3>
+            </div>
+            <div class="col-md-4 d-xs-none d-sm-none d-md-block d-xl-block float-right infoBox my-auto">
+                <div>
+                    <span class="language">English <i class="fas fa-sort-down"></i></span>
+                    <button class="btn btn-sm  btn-dark ml-3 mr-2">Sign up</button>
+                    <button class="btn btn-sm btn-outline-dark">Login</button>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler btn-block hamburger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon ml-auto"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="model-search.html">MODELS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ranking.html">RANKINGS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            INDUSTRY MEMBERS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="photographer.html">PHOTOGRAPHERS</a>
+                            <a class="dropdown-item" href="fashion-stylist.html">FASHION STYLIST</a>
+                            <a class="dropdown-item" href="makeup-artist.html">HAIR AND MAKEUP ARTIST</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MORE
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="about.html">About Us</a>
+                            <a class="dropdown-item" target="_blank" href="www.2ammodelagency.com">Out Sites</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <!-- nav-bar-end  (inner Pages )-->
+
+    <!-- model-project-start-->
+    <div class="container-fluid">
+        <h3 class="text-center text-light bg-dark p-3 stylishHeader">YOU'RE IN THE RIGHT PLACE!</h3>
         <div class="form">
-            <div class="row my-5">
-                <div class="col-lg-12">
-                    <h2>Which one are you?<span class="require"></span></h2>
-                    <input type="radio" name="radio" id="radio1" checked="true" />
+            <div class="row offset-md-2 my-5">
+                <!--left side-->
+                <div class="col-md-5">
+                    <h3>Which one are you?<span class="require"></span></h3>
+                    <input type="radio" class="hideRadio" name="radio" id="radio1" checked="true" />
                     <label class="radio" for="radio1">Photographer</label>
 
-                    <input type="radio" name="radio" id="radio2" />
+                    <input type="radio" class="hideRadio" name="radio" id="radio2" />
                     <label for="radio2">Brand</label>
 
-                    <input type="radio" name="radio" id="radio3" />
+                    <input type="radio" class="hideRadio" name="radio" id="radio3" />
                     <label for="radio3">Casting director</label>
 
-                    <input type="radio" name="radio" id="radio4" />
+                    <input type="radio" class="hideRadio" name="radio" id="radio4" />
                     <label for="radio4">Model agency</label>
 
-                    <input type="radio" name="radio" id="radio5" />
+                    <input type="radio" class="hideRadio" name="radio" id="radio5" />
                     <label for="radio5">Advertising agency</label>
 
-                    <input type="radio" name="radio" id="radio6" />
+                    <input type="radio" class="hideRadio" name="radio" id="radio6" />
                     <label for="radio6">Production company</label>
 
-                    <input type="radio" name="radio" id="radio7" />
+                    <input type="radio" class="hideRadio" name="radio" id="radio7" />
                     <label for="radio7">Media</label>
 
-                    <input type="radio" name="radio" id="radio8" />
+                    <input type="radio" class="hideRadio" name="radio" id="radio8" />
                     <label for="radio8">Showroom</label>
 
-                    <input type="radio" name="radio" id="radio9" />
+                    <input type="radio" class="hideRadio" name="radio" id="radio9" />
                     <label for="radio9">Hair and Make up artist</label>
 
-                    <input type="radio" name="radio" id="radio10" />
+                    <input type="radio" class="hideRadio" name="radio" id="radio10" />
                     <label for="radio10">PR / Events</label>
 
-                    <input type="radio" name="radio" id="radio11" />
+                    <input type="radio" class="hideRadio" name="radio" id="radio11" />
                     <label for="radio11">Other</label>
                 </div>
-            </div>
-            <h2>Personal information</h2>
-            <div class="row my-3">
-                <div class="col-md-6 form-group">
-                    <label class="form_label" for="exampleInputPassword1">First name<span class="require"></span></label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="First name">
-                </div>
-                <div class="col-md-6 form-group">
-                    <label class="form_label" for="exampleInputPassword1">Last name<span class="require"></span></label>
-                    <input type="text" class="form-control textForm" id="exampleInputPassword1" placeholder="Last name">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 form-group">
-                    <label class="form_label" for="exampleInputPassword1">Address<span class="require"></span></label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Address">
-                </div>
-                <div class="col-md-6 form-group">
-                    <label class="form_label" for="exampleInputPassword1">Phone<span class="require"></span></label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter a phone">
-                </div>
-            </div>
-            <h2 class="mt-5">Website/Social media</h2>
-            <div class="row my-3">
-                <div class="col-md-6 form-group">
-                    <label class="form_label" for="exampleInputPassword1">URL<span class="require"></span></label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="https://www.example.com">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            I agree to receive account notifications for bookings, castings and messages.
-                        </label>
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            I would like to receive information about castings, special offers and site updates.
-                        </label>
+                <!--right side-->
+                <div class="col-md-5">
+                    <h3>Personal information</h3>
+                    <div class="row my-3">
+                        <div class="col-md-6 form-group">
+                            <label class="form_label" for="fname">First name<span class="require"></span></label>
+                            <input type="text" class="form-control modelJobInput" id="fname" placeholder="First name">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label class="form_label" for="lname">Last name<span class="require"></span></label>
+                            <input type="text" class="form-control textForm modelJobInput" id="lname" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label class="form_label" for="address">Address<span class="require"></span></label>
+                            <input type="text" class="form-control modelJobInput" id="address" placeholder="Address">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label class="form_label" for="phone">Phone<span class="require"></span></label>
+                            <input type="text" class="form-control modelJobInput" id="phno" placeholder="Enter a phone">
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <h3>Website/Social media</h3>
+                            <label class="form_label" for="url">URL<span class="require"></span></label>
+                            <input type="text" class="form-control modelJobInput" id="url" placeholder="https://www.example.com">
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-check">
+                                <input class="form-check-input mt-3" type="checkbox" id="gridCheck1">
+                                <label class="form-check-label" for="gridCheck1">
+                                    I agree to receive notifications for bookings and messages.
+                                </label>
+                                <input class="form-check-input mt-3" type="checkbox" id="gridCheck2">
+                                <label class="form-check-label mt-2" for="gridCheck2">
+                                    I would like to receive information about special offers and site updates.
+                                </label>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row my-5">
-                <div class="col-md-12 text-center">
-                    <button type="button" class="btn btn-primary">CONFIRM</button>
+                <!--button -->
+                <div class="offset-5 col-md-12 mt-3">
+                    <button type="button" class="btn btn-info">FIND</button>
                 </div>
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="jquery.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- model-project-end-->
+
+    <!-- start footer -->
+    <div class="container-fluid baseFooter p-4">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mt-sm-5">
+                <h5 class="opacityRed">2am Model Agency</h5>
+                <span class="opacityRed">
+                    <i class="fab fa-facebook-f noIconColor"></i>
+                    <i class="fab fa-twitter noIconColor"></i>
+                    <i class="fab fa-youtube noIconColor"></i>
+                    <i class="fab fa-instagram noIconColor"></i>
+                </span>
+            </div>
+            <div class="col-md-3 col-sm-6 mt-sm-5">
+                <h5 class="opacityRed">Support</h5>
+                <div class="opacityRed footerTxt">Contact Us</div>
+                <div class="opacityRed footerTxt">FAQ</div>
+                <div class="opacityRed footerTxt">Downloads</div>
+                <div class="opacityRed footerTxt">Find a sponsor</div>
+                <div class="opacityRed footerTxt">Myanmar Model Agency</div>
+                <div class="opacityRed footerTxt">Share</div>
+            </div>
+            <div class="col-md-3 col-sm-6 mt-sm-5">
+                <h5 class="opacityRed">Function</h5>
+                <div class="opacityRed footerTxt">About Fashion design</div>
+                <div class="opacityRed footerTxt">Life Carriers</div>
+                <div class="opacityRed footerTxt">Model Acamedic</div>
+                <div class="opacityRed footerTxt">Find job and get job in same place</div>
+                <div class="opacityRed footerTxt">Share</div>
+            </div>
+            <div class="col-md-3 col-sm-6 mt-sm-5">
+                <h5 id="fForm"><i class="far fa-envelope opacityRed"></i> Stay up to date</h5>
+                <div>
+                    <input id="footerInput" type="text" placeholder="Enter your email address">
+                    <br>
+                    <button class="footerBtn">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+    <script type="text/javascript" src="../jquery.min.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -8,65 +8,75 @@
     <link rel="stylesheet" type="text/css" href="../library/bootstrap/css/bootstrap.min.css">
     <!-- fontawsome -->
     <link rel="stylesheet" type="text/css" href="../library/fontawesome/css/all.min.css">
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/profile.css">
     <!-- meta tags -->
     <meta name="description" content="Online modeling community, which helps local clients source models and talents for their projects.">
     <meta name="keywords" content="2am, 2am model, 2am model agency, model agency, 2am agency, agency myanmar, myanmar model agency">
     <meta name="robots" content="index, follow">
     <meta name="copyright" content="2ammodelagency">
     <meta name="language" content="EN">
-    <!-- style -->
-    <style type="text/css">
-    nav>.nav.nav-tabs {
-
-        border: none;
-        color: #fff;
-        background: #656D78;
-        border-radius: 0;
-
-    }
-
-    nav>div a.nav-item.nav-link,
-    nav>div a.nav-item.nav-link.active {
-        border: none;
-        padding: 18px 25px;
-        color: #fff;
-        background: #656D78;
-        border-radius: 0;
-    }
-
-    nav>div a.nav-item.nav-link.active:after {
-        content: "";
-        position: relative;
-        bottom: -60px;
-        left: -10%;
-        border: 15px solid transparent;
-        border-top-color: #272e38;
-    }
-
-    .tab-content {
-        background: #fdfdfd;
-        line-height: 25px;
-        border: 1px solid #ddd;
-        border-top: 5px solid #272e38;
-        border-bottom: 5px solid #272e38;
-        padding: 30px 25px;
-    }
-
-    nav>div a.nav-item.nav-link:hover,
-    nav>div a.nav-item.nav-link:focus {
-        border: none;
-        background: #272e38;
-        color: #fff;
-        border-radius: 0;
-        transition: background 0.20s linear;
-    }
-    </style>
 </head>
 
 <body>
-    <h3>Khin Waint Wah</h3>
-    <p>Yangon</p>
-    <div class="container">
+    <!-- nav-bar-start (inner Pages )-->
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <h3 class="logo text-sm-center text-md-right text-dark">2am <span>M</span>odel <span>A</span>gency</h3>
+            </div>
+            <div class="col-md-4 d-xs-none d-sm-none d-md-block d-xl-block float-right infoBox my-auto">
+                <div>
+                    <span class="language">English <i class="fas fa-sort-down"></i></span>
+                    <button class="btn btn-sm  btn-dark ml-3 mr-2">Sign up</button>
+                    <button class="btn btn-sm btn-outline-dark">Login</button>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler btn-block hamburger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon ml-auto"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="model-search.html">MODELS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ranking.html">RANKINGS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            INDUSTRY MEMBERS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="photographer.html">PHOTOGRAPHERS</a>
+                            <a class="dropdown-item" href="fashion-stylist.html">FASHION STYLIST</a>
+                            <a class="dropdown-item" href="makeup-artist.html">HAIR AND MAKEUP ARTIST</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MORE
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="about.html">About Us</a>
+                            <a class="dropdown-item" target="_blank" href="www.2ammodelagency.com">Out Sites</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- nav-bar-end  (inner Pages )-->
+    <div class="container my-5">
+        <h3 class="font-weight-bold">Khin Waint Wah</h3>
+        <p class="font-italic">Yangon</p>
         <div class="row my-5">
             <div class="col-md-6 mb-3 bg-light rounded p-3">
                 <h4 class="px-3">Modeling job date</h4>
@@ -86,7 +96,7 @@
                 </div>
                 <p class="px-3" style="opacity: 0.5;">You can propose the fee you are offering to the model in the next step</p>
                 <div class="px-3">
-                    <button type="submit" class="btn btn-primary">Book Model</button>
+                    <button type="submit" class="btn btn-info">Book Model</button>
                 </div>
             </div>
             <div class="col-md-6">
@@ -136,12 +146,12 @@
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
                     <div class="tab-pane fade" id="nav-reviews" role="tabpanel" aria-labelledby="nav-reviews-tab">
-                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
                 </div>
             </div>
@@ -149,6 +159,46 @@
     </div>
     </div>
     </div>
+    <!-- start footer -->
+    <div class="container-fluid baseFooter p-4">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mt-sm-5">
+                <h5 class="opacityRed">2am Model Agency</h5>
+                <span class="opacityRed">
+                    <i class="fab fa-facebook-f noIconColor"></i>
+                    <i class="fab fa-twitter noIconColor"></i>
+                    <i class="fab fa-youtube noIconColor"></i>
+                    <i class="fab fa-instagram noIconColor"></i>
+                </span>
+            </div>
+            <div class="col-md-3 col-sm-6 mt-sm-5">
+                <h5 class="opacityRed">Support</h5>
+                <div class="opacityRed footerTxt">Contact Us</div>
+                <div class="opacityRed footerTxt">FAQ</div>
+                <div class="opacityRed footerTxt">Downloads</div>
+                <div class="opacityRed footerTxt">Find a sponsor</div>
+                <div class="opacityRed footerTxt">Myanmar Model Agency</div>
+                <div class="opacityRed footerTxt">Share</div>
+            </div>
+            <div class="col-md-3 col-sm-6 mt-sm-5">
+                <h5 class="opacityRed">Function</h5>
+                <div class="opacityRed footerTxt">About Fashion design</div>
+                <div class="opacityRed footerTxt">Life Carriers</div>
+                <div class="opacityRed footerTxt">Model Acamedic</div>
+                <div class="opacityRed footerTxt">Find job and get job in same place</div>
+                <div class="opacityRed footerTxt">Share</div>
+            </div>
+            <div class="col-md-3 col-sm-6 mt-sm-5">
+                <h5 id="fForm"><i class="far fa-envelope opacityRed"></i> Stay up to date</h5>
+                <div>
+                    <input id="footerInput" type="text" placeholder="Enter your email address">
+                    <br>
+                    <button class="footerBtn">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
     <!-- scripts -->
     <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="../library/bootstrap/js/bootstrap.bundle.min.js"></script>
