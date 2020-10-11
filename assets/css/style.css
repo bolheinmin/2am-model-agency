@@ -41,6 +41,12 @@
     .topModelImg {
         margin-top: 20px;
     }
+    .extraImage {
+        display: none;
+    }
+    .modelSearchTxt {
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width: 1200px) {
     .overlay .text {
@@ -80,7 +86,7 @@
 .backgroundFiller {
     margin-bottom:5%!important;
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.6;
     padding: 10px;
 }
 .customMainBtn {
@@ -304,8 +310,17 @@ blockquote i {
 .fa-facebook-square {
     color:#1873eb;
 }
+.fa-facebook-f {
+    color:#1873eb!important;
+}
 .fa-twitter-square {
     color:#00a6eb;
+}
+.fa-twitter {
+    color:#00a6eb!important;
+}
+.fixedLabel {
+    color:white!important;
 }
 .fa-instagram {
     color:#b82e77;
@@ -341,20 +356,15 @@ blockquote i {
 }
 
 /*css for form design*/
-input[type="text"] {
+.modelJobInput {
     height: 50px!important;
     border-radius: 10px!important;
     box-shadow: none!important;
 }
-select {
-    height: 50px!important;
-    border-radius: 10px!important;
-    box-shadow: none!important;
-    outline: none!important;
-}
-input[type="radio"] {
+.hideRadio {
     display: none
 }
+
 
 input[type="radio"]+label:before {
     content: "";
@@ -377,7 +387,6 @@ label {
     display: flex;
     align-items: center
 }
-
 .form_label {
     position: relative;
     font-weight: 500;
@@ -388,7 +397,6 @@ label {
     padding-left: 13px;
     color: #000;
 }
-
 .require {
     width: 4px;
     height: 4px;
@@ -409,4 +417,48 @@ label {
 .partnerText {
     opacity: 0.7!important;
 }
+
 /*end partner style*/
+
+/*start model search*/
+.searchContainer{
+
+}
+/*end model search*/
+
+/*start footer*/
+.baseFooter {
+    background-color: #292b2c!important;
+    color: white;
+}
+.opacityRed {
+    opacity: 0.8;
+}
+.footerTxt {
+    font-size: 12px;
+    line-height: 20px;
+}
+#fForm {
+    font-size: 16px;
+}
+.footerInput {
+    padding: 10px;
+    border:none!important;
+    outline: none!important;
+    border-radius: 0!important;
+    height: 30px!important;
+    /*width: 200px;*/
+}
+.footerBtn {
+    /*width: 200px;*/
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: crimson;
+}
+.noIconColor {
+    color: white!important;
+}
+/*end footer*/

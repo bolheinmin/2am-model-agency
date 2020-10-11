@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e91a4644-89ae-4d14-bdfa-c5a22f885d82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/home.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/model-search.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/model-search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/modelforproject.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/modelforproject.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/modling-jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/modling-jobs.html" afterDir="false" />
     </list>
@@ -26,7 +28,8 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mitc/css/cinema" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -38,11 +41,21 @@
       <option name="presentableId" value="Default" />
       <updated>1602330515123</updated>
       <workItem from="1602330517176" duration="19246000" />
-      <workItem from="1602387096308" duration="296000" />
+      <workItem from="1602387096308" duration="31688000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1602390869180">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1602390869180" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1602388595270">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1602388595270" />
   </component>
 </project>
