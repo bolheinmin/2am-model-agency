@@ -1,16 +1,132 @@
-@font-face{
-	font-family: 'Roboto';
-	src:url('../fonts/Roboto-Regular.ttf');
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
 }
 
-@font-face{
-	font-family: 'Yellowtail';
-	src:url('../fonts/Yellowtail-Regular.ttf');
+@font-face {
+    font-family: 'Yellowtail';
+    src: url('../fonts/Yellowtail-Regular.ttf');
 }
+<<<<<<< HEAD
 
 h1 {
 <<<<<<< HEAD
 	font-family: 'Yellowtail';
+=======
+*
+{
+	font-family: 'Roboto',sans-serif;;
+}
+/*Media Queries start*/
+@media only screen and (max-width: 576px) {
+    .infoBox {
+        display: none;
+    }
+    .logo {
+        text-align: center;
+        font-size: 20px!important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .overlay .text {
+        margin-top: 30%!important;
+    }
+}
+@media only screen and (max-width: 867px) {
+    .overlay .text {
+        margin-top: 2%!important;
+    }
+    .text h4 {
+        font-size: 30px;
+    }
+    .icons div span {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .topModelImg {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .overlay .text {
+        margin-top: 10%!important;
+    }
+}
+/*Media Queries end*/
+.nav-item
+{
+	margin-right: 50px;
+}
+.logo
+{
+	font-family: 'Yellowtail',cursive;
+	font-weight: normal;
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+.navbar-toggler {
+    outline: none!important;
+}
+.hamburger {
+    border: none!important;
+}
+.logo span {
+	font-family: 'Yellowtail',cursive;
+	font-size: 50px;
+}
+.language {
+	cursor: pointer;
+}
+.homeImage {
+    object-fit: cover;
+    opacity: 0.9;
+    height: 600px!important;
+}
+.backgroundFiller {
+    margin-bottom:5%!important;
+    background-color: black;
+    opacity: 0.7;
+    padding: 10px;
+}
+.customMainBtn {
+    text-transform: uppercase;
+    border: none!important;
+    outline: none!important;
+    background-color: crimson;
+    padding: 10px;
+    color: white;
+    transition: all 1s;
+}
+.customMainBtn:hover {
+   background-color: darkred;
+}
+.buttonsContainer {
+    margin-bottom: 200px;
+}
+.quoteTwo {
+    letter-spacing: 5px;
+    word-spacing: 20px;
+}
+.quoteOne {
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+.mainImage {
+    object-fit: cover;
+    width: 100%!important;
+    height: 600px;
+    opacity: 0.8;
+}
+
+.mainInfo h3 , .mainInfo h4{
+    color: white;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+}
+.mainInfo h4 {
+    text-align: center;
+>>>>>>> 5509b18aebf5a88a1515300899f0dac250b32801
 }
 .hovereffect {
   width: 350px;
@@ -21,7 +137,6 @@ h1 {
   text-align: center;
   cursor: default;
 }
-
 .hovereffect .overlay {
   width: 350px;
   height: 200px;
@@ -97,6 +212,7 @@ h1 {
   -ms-transform: scale(1);
   transform: scale(1);
   background-color: rgba(0,0,0,0.4);
+<<<<<<< HEAD
 =======
 	font-family: 'Roboto';
 }
@@ -124,3 +240,210 @@ blockquote {
     text-align: center;
 >>>>>>> fbdded2fb5c0659c28e60237e758969250de1332
 }
+=======
+	font-family: 'Roboto';
+}
+.infoBox div{
+    float: right;
+}
+.happy {
+    opacity: 1;
+    cursor: pointer;
+    transition: box-shadow .3s;
+    display: block;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(121, 125, 127,.7);
+    border-radius: 50%;
+}
+.happy:hover {
+    opacity: 0.9;
+    box-shadow: 2px 3px 5px rgba(23, 32, 42 ,.7);
+}
+.starsFeedback {
+    color: #7FB3D5;
+}
+.clear {
+    clear: both;
+}
+blockquote {
+    position: relative;
+    margin: 0;
+    padding: 15px;
+    font-style: italic;
+    color: #222222;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+}
+blockquote i {
+    color: #1d2124;
+    font-size: 14px;
+}
+/*Image Transition Style Start*/
+.topModelBox {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    transition: all .5s;
+}
+.topModelBox:hover {
+    transform: scale(1.1);
+    box-shadow: 0 25px 40px rgba(0,0,0,.5);
+}
+.topModelBox:hover .overlayLeft {
+    width: 100%;
+}
+
+.overlay .text .icons i span {
+}
+.popularHr {
+    border: 1px solid white;
+    width: 80%;
+}
+.overlay {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: #1b1e21;
+}
+.topModelBox:hover .overlay {
+   opacity: .5;
+
+}
+.overlay .text {
+    color: white;
+    margin-top: 50%;
+}
+.overlayLeft
+{
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+}
+
+.topModelImg {
+    cursor: pointer;
+}
+/*Image Transition Style End*/
+.icons i{
+   margin-right: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.icons i:hover {
+    opacity: 0.8;
+}
+.fa-facebook-square {
+    color:#1873eb;
+}
+.fa-twitter-square {
+    color:#00a6eb;
+}
+.fa-instagram {
+    color:#b82e77;
+}
+.fa-youtube {
+    color:#cf2323;
+}
+.fa-pinterest {
+    color:#b7081b;
+}
+.social h3 ,.social span {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.social h3:hover , .social span:hover {
+    opacity: 1;
+}
+.social span {
+    font-size: 16px;
+}
+.socialInfo .title {
+    font-size: 20px;
+    opacity: 0.9;
+}
+.stylishHeader {
+    letter-spacing: 3px;
+}
+.socialInfo .description {
+    opacity: 0.7;
+    word-spacing: 3px;
+    text-indent: 6rem;
+}
+
+/*css for form design*/
+input[type="text"] {
+    height: 50px!important;
+    border-radius: 10px!important;
+    box-shadow: none!important;
+}
+select {
+    height: 50px!important;
+    border-radius: 10px!important;
+    box-shadow: none!important;
+    outline: none!important;
+}
+input[type="radio"] {
+    display: none
+}
+
+input[type="radio"]+label:before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 6px;
+    margin-right: 3px;
+    background-clip: content-box;
+    border: 2px solid #bbb;
+    background-color: #e7e6e7;
+    border-radius: 50%
+}
+
+input[type="radio"]:checked+label:before {
+    background-color: #93e026
+}
+
+label {
+    display: flex;
+    align-items: center
+}
+
+.form_label {
+    position: relative;
+    font-weight: 500;
+    margin-bottom: 3px;
+    font-size: 16px;
+    text-align: left;
+    display: block;
+    padding-left: 13px;
+    color: #000;
+}
+
+.require {
+    width: 4px;
+    height: 4px;
+    background: #c83e74;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 2px;
+}
+
+/*end form design*/
+
+/*start partner style*/
+.partnerImages  {
+    cursor: pointer;
+    /*width: 150px;*/
+    /*height: 50px;*/
+}
+.partnerText {
+    opacity: 0.7!important;
+}
+/*end partner style*/
+>>>>>>> 5509b18aebf5a88a1515300899f0dac250b32801
