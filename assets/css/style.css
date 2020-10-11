@@ -7,14 +7,12 @@
     font-family: 'Yellowtail';
     src: url('../fonts/Yellowtail-Regular.ttf');
 }
-<<<<<<< HEAD
+
 
 h1 {
-<<<<<<< HEAD
 	font-family: 'Yellowtail';
-=======
-*
-{
+}
+*{
 	font-family: 'Roboto',sans-serif;;
 }
 /*Media Queries start*/
@@ -126,26 +124,27 @@ h1 {
 }
 .mainInfo h4 {
     text-align: center;
->>>>>>> 5509b18aebf5a88a1515300899f0dac250b32801
 }
+
 .hovereffect {
-  width: 350px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   float: left;
   overflow: hidden;
   position: relative;
   text-align: center;
   cursor: default;
 }
+
 .hovereffect .overlay {
-  width: 350px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   overflow: hidden;
   top: 0;
-  left: -5%;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  left: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .hovereffect:hover .overlay {
@@ -158,6 +157,7 @@ h1 {
 }
 
 .hovereffect img {
+  display: block;
   position: relative;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -175,15 +175,15 @@ h1 {
   color: #fff;
   text-align: center;
   position: relative;
-  font-size: 15px;
-  padding: 20px;
+  font-size: 17px;
+  padding: 10px;
   background: rgba(0, 0, 0, 0.6);
 }
 
 .hovereffect p.info {
   display: inline-block;
   text-decoration: none;
-  padding: 7px 10px;
+  padding: 7px 14px;
   text-transform: uppercase;
   color: #fff;
   border: 1px solid #fff;
@@ -198,7 +198,7 @@ h1 {
   transition: all 0.4s ease-in-out;
   font-weight: normal;
   height: 85%;
-  width: 90%;
+  width: 85%;
   position: absolute;
   top: -20%;
   left: 8%;
@@ -212,9 +212,6 @@ h1 {
   -ms-transform: scale(1);
   transform: scale(1);
   background-color: rgba(0,0,0,0.4);
-<<<<<<< HEAD
-=======
-	font-family: 'Roboto';
 }
 
 .happy {
@@ -238,10 +235,7 @@ blockquote {
     font-size: 18px;
     line-height: 24px;
     text-align: center;
->>>>>>> fbdded2fb5c0659c28e60237e758969250de1332
-}
-=======
-	font-family: 'Roboto';
+	   font-family: 'Roboto';
 }
 .infoBox div{
     float: right;
@@ -446,4 +440,3 @@ label {
     opacity: 0.7!important;
 }
 /*end partner style*/
->>>>>>> 5509b18aebf5a88a1515300899f0dac250b32801
